@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background-image: url("old.jpg");
+    background-position: center;
+    background-size: cover;
+   
+  }
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    text-align: center;
+    background: #FDF2E9 ;
+  }
+  
+  .header h1 {
+    font-size: 50px;
+  }
+
+  h1{
+    font-size: 40px;
+    font-family: Berlin Sans FB;
+    color: black;
+  }
+
+  .content-1{
+    text-align: center;
+  }
+
+  .content-1 h1{
+    font-size: 160px;
+  }
+
+  .content-1 a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border: 2px solid;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+    color: black;
+  }
+
+  .content-1 a:hover{
+    background-color: #ddd;
+    color: black;
+  }
+
+  .main{
+    font-size: 40px;
+    font-family: Berlin Sans FB;
+    color: black;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: black;
+    font-family: Cascadia Mono;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    float: left;
+    border-right:1px solid #bbb;
+  }
+      
+  .active {
+    background-color: gray;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  /* Fake image */
+  .fakeimg {
+    
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .elfili{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .rizal{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 22%;
+  }
+
+  .plot{
+    font-family: Cascadia Mono;
+  }
+
+  h2{
+    font-family: Cascadia Mono;
+  }
+
+  h3{
+    text-align: center;
+    font-family: Berlin Sans FB;
+  }
+
+  .minor{
+    font-size: 40px;
+  }
+
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+    font-family: Cascadia Mono;
+  }
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    color: white;
+    text-align: center;
+ }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
